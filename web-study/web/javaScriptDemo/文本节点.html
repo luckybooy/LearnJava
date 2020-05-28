@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加元素</title>
+    <script>
+    <!--  添加子节点   -->
+        function addPoint() {
+            //创建一个新节点li
+            var li = document.createElement("li");
+            //创建一个新的文本节点
+            var citySz=document.createTextNode("深圳");
+            //使文本节点和创建的li节点进行关联
+            li.appendChild(citySz);
+            //使li节点和ul进行关联
+            document.getElementById("city").appendChild(li);
+        }
+    </script>
+</head>
+<body>
+<ul id = city>
+    <li>北京</li>
+    <li>上海</li>
+    <li>杭州</li>
+</ul>
+
+<input name="addCity" value="添加" type="button" onclick="addPoint()">
+</body>
+</html>
