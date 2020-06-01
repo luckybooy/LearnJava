@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正则表达式</title>
+    <script>
+
+        // 定义一个正则表达式对象 表示只能出现两个数字
+        //var reg = new RegExp(/^[0-9]{2}$/)
+        var reg = /^[0-9]{3}$/
+        //test方法返回boolean类型，真假
+        var flag = reg.test("12，2")
+        alert(flag)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

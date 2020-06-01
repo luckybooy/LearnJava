@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时间date对象</title>
+    <script>
+        //创建时间对象
+        var date = new Date();
+        document.write(date)
+        document.write("<br>")
+        //转换时间格式
+        var dateLDS = date.toLocaleDateString();
+        document.write(dateLDS)
+        document.write("<br>")
+
+        var dateLS = date.toLocaleString()
+        document.write(dateLS)
+        document.write("<br>")
+
+        var dateDS = date.toDateString()
+        document.write(dateDS)
+        document.write("<br>")
+
+        var dateLTS = date.toLocaleTimeString()
+        document.write(dateLTS)
+        document.write("<br>")
+
+        var num = date.getTimezoneOffset()
+        document.write(num)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
