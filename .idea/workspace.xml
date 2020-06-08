@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95c21ca2-fd3f-4b96-bae7-8aa3be1d5b7d" name="Default Changelist" comment="js 学习创建节点">
+      <change afterPath="$PROJECT_DIR$/web-study/web/javaScriptDemo/yuhuofei.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +72,7 @@
       <workItem from="1589295505260" duration="864000" />
       <workItem from="1590626923490" duration="325000" />
       <workItem from="1590631547110" duration="3530000" />
+      <workItem from="1591579772833" duration="4645000" />
     </task>
     <task id="LOCAL-00001" summary="js 学习创建节点">
       <created>1590652419733</created>

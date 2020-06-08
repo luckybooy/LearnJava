@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>与或非巩固</title>
+</head>
+<body>
+    <script>
+        //与判断   如果 && 前边的表达式是真的，则直接输出后边的表达式,
+        //如果第一个表达式是假的话，返回第一个表达式的值，就不会往后走
+        var a = 3 && 23
+        document.write(a)   //23
+        document.write("</br>")
+        var b = 6 && "hello"
+        document.write(b)   //hello
+
+        document.write("</br>")
+        var c = 3>5 && "word"
+        document.write(c)   //false
+        document.write("</br>")
+
+       // var n = parseInt(window.prompt("input"));
+        //document.write(n)
+        function coverTwo(n) {
+            var res = 1;
+            for (var i = 1;i <= n ;i++){
+                res *= 2;
+            }
+            document.write(res)
+        }
+        coverTwo(5)
+        document.write("</br>")
+        function factorial(n) {
+            var faRes = 1;
+            if (n == 0){
+                faRes = 1
+            }
+            for (var i = 1;i <= n; i++){
+                faRes *= i;
+            }
+            document.write(faRes)
+        }
+
+        factorial(5);
+
+        document.write("</br>")
+        // 1 1 2 3 5 8
+        // 斐波那契额数列
+        function fn(n) {
+            //定义三个游标，每次计算后，将图标向后移一位
+            var first = 1,second = 1,third;
+            if (n > 2){
+                for (var i = 0;i < n;i++){
+                    third = first + second;
+                    first = second;
+                    second = third;
+                }
+                document.write(third)
+            }else {
+                document.write(1)
+            }
+        }
+        fn(5)
+
+
+
+
+
+
+    </script>
+</body>
+</html>
