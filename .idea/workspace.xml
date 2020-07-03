@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c21ca2-fd3f-4b96-bae7-8aa3be1d5b7d" name="Default Changelist" comment="斐波那契额数列学习，for 循环，每次计算后再向后移动游标">
+    <list default="true" id="95c21ca2-fd3f-4b96-bae7-8aa3be1d5b7d" name="Default Changelist" comment="100以内的质数 两种方法">
+      <change afterPath="$PROJECT_DIR$/web-study/src/remind/cookie 和session的区别" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-study/web/javaScriptDemo/yuhuofei.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-study/web/javaScriptDemo/yuhuofei.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +51,145 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28437793" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.webservices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\exercise\LearnJava\web-study\web\html" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.36" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.36" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_36_LearnJava" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56230" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.36" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_LearnJava" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56230" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -72,7 +205,9 @@
       <workItem from="1589295505260" duration="864000" />
       <workItem from="1590626923490" duration="325000" />
       <workItem from="1590631547110" duration="3530000" />
-      <workItem from="1591579772833" duration="6072000" />
+      <workItem from="1591579772833" duration="6480000" />
+      <workItem from="1591691207827" duration="589000" />
+      <workItem from="1593736948355" duration="3354000" />
     </task>
     <task id="LOCAL-00001" summary="js 学习创建节点">
       <created>1590652419733</created>
@@ -88,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591602902118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="100以内的质数 两种方法">
+      <created>1591605107032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591605107032</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,17 +251,42 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="js 学习创建节点" />
     <MESSAGE value="斐波那契额数列学习，for 循环，每次计算后再向后移动游标" />
-    <option name="LAST_COMMIT_MESSAGE" value="斐波那契额数列学习，for 循环，每次计算后再向后移动游标" />
+    <MESSAGE value="100以内的质数 两种方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="100以内的质数 两种方法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="149" y="25" key="SettingsEditor" timestamp="1590651786448">
+    <state x="127" y="23" key="#Project_Structure" timestamp="1593753481163">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state x="149" y="25" key="SettingsEditor/0.23.1280.727@0.23.1280.727" timestamp="1590651786448" />
+    <state x="127" y="23" key="#Project_Structure/0.23.1280.727@0.23.1280.727" timestamp="1593753481163" />
+    <state x="419" y="271" key="#Tomcat_Server" timestamp="1593753012759">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="419" y="271" key="#Tomcat_Server/0.23.1280.727@0.23.1280.727" timestamp="1593753012759" />
+    <state x="104" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593753482785">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="104" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.727@0.23.1280.727" timestamp="1593753482785" />
+    <state x="325" y="195" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593759279773">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="325" y="195" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.727@0.23.1280.727" timestamp="1593759279773" />
+    <state x="32" y="23" key="SettingsEditor" timestamp="1593742758467">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="32" y="23" key="SettingsEditor/0.23.1280.727@0.23.1280.727" timestamp="1593742758467" />
     <state x="431" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591602850099">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="431" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.727@0.23.1280.727" timestamp="1591602850099" />
+    <state x="34" y="23" key="new project wizard" timestamp="1593737012195">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="34" y="23" key="new project wizard/0.23.1280.727@0.23.1280.727" timestamp="1593737012195" />
+    <state x="305" y="173" key="run.anything.popup" timestamp="1593742704741">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="305" y="173" key="run.anything.popup/0.23.1280.727@0.23.1280.727" timestamp="1593742704741" />
     <state x="305" y="74" width="670" height="676" key="search.everywhere.popup" timestamp="1590652328311">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
